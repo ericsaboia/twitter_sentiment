@@ -4,6 +4,7 @@ Installation
 --------
 
 install dependecies
+
 ```irb
 bundle install
 ```
