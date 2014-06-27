@@ -1,15 +1,12 @@
 <div class="row">
-  <%= form_tag do |f| %>
+  <%= form_tag(twitters_path('json'), method: "get", id: 'search-form') do |f| %>
     <div class="col-sm-10">
-      <input class="form-control input-lg" type="text" id="formGroupInputLarge" placeholder="What are you searching for?">
+      <input class="form-control input-lg" type="text" name="search-text" id="search-text" placeholder="What are you searching for?">
     </div>
     <div class="col-sm-2">
-      <%= submit_tag("Search", class: 'btn btn-primary btn-lg') %>
+      <input class="btn btn-primary btn-lg" name="search-button" id="search-button" type="submit" value="Search">
     </div>
   <% end %>
 </div>
 
-<div class="row">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-8"></div>
-</div>
+<div class="search-results" id="search-results"></div>
