@@ -2,3 +2,8 @@ development:
   twitter:
     consumer_key: 
     consumer_secret: 
+
+test:
+  twitter:
+    consumer_key: 
+    consumer_secret: 
