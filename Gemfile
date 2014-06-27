@@ -41,3 +41,7 @@ gem 'twitter'
 gem 'settingslogic'
 gem 'sentimental'
 gem 'handlebars_assets'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end

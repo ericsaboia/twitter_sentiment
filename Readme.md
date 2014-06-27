@@ -3,7 +3,7 @@ Installation
 
 Install dependecies
 
-```irb
+```
 bundle install
 ```
 
@@ -11,6 +11,13 @@ Rename config/application.yml.sample to application.yml and fill the twitter's t
 
 Run the app :)
 
-```irb
+```
 rails s
+```
+
+Running Tests
+--------
+
+```
+bundle exec rspec
 ```
