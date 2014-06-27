@@ -4,6 +4,7 @@ module TwittersHelper
   @@client = Twitter::REST::Client.new(Settings.twitter)
 
   def geo_search(q)
-    @@client.search(q, geocode: '-23.6824124,-46.5952992,1000km').take(20)
+    sf_area = '37.7577,-122.4376,100km'
+    @@client.search(q, geocode: sf_area).take(20)
   end
 end
