@@ -1,3 +1,25 @@
 // Place all the styles related to the twitters controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.search-results {
+  margin-top: 20px;
+}
+
+.positive {
+  background-image: image-url('positive.jpg');
+}
+
+.negative {
+  background-image: image-url('negative.jpg');
+}
+
+.neutral {
+  background-image: image-url('neutral.jpg');
+}
+
+.positive, .negative, .neutral {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 30px;
+}
