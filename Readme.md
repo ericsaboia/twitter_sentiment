@@ -1,15 +1,15 @@
 Installation
 --------
 
-install dependecies
+Install dependecies
 
 ```irb
 bundle install
 ```
 
-rename config/application.yml.sample to application.yml and fill the twitter's token info.
+Rename config/application.yml.sample to application.yml and fill the twitter's token info.
 
-run the app :)
+Run the app :)
 
 ```irb
 rails s
