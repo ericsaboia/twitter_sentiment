@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require nprogress
 //= require bootstrap-sprockets
 //= require handlebars.runtime
 //= require jquery_ujs
